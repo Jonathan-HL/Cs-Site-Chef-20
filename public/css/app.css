@@ -17236,16 +17236,10 @@ body {
 }
 
 header nav .nav1 {
-  position: relative;
+  position: absolute;
   z-index: 1;
   padding: 0;
-}
-header nav .nav1 .ic {
-  position: absolute;
-  z-index: -1;
-}
-header nav .endz {
-  margin-left: 40%;
+  margin-left: 15%;
 }
 header nav ul {
   display: flex;
@@ -17256,6 +17250,7 @@ header nav ul {
 }
 header nav ul li {
   list-style-type: none;
+  color: white;
 }
 header nav ul li a {
   margin: 0 20%;
@@ -17265,49 +17260,58 @@ header nav ul li a {
   padding: 5px;
   color: white;
 }
-header nav ul li a:hover {
+header nav ul li:hover {
   color: white;
   background-color: #B02839;
   padding: 10px;
   margin: 0px;
 }
-header nav .bt1 {
+header .bt1 {
   background-color: white;
   border: none;
   border-radius: 30px;
   padding: 15px 30px;
   margin: 0px 15px 0px 15px;
 }
-header nav .bt2 {
+header .bt2 {
   background-color: #B02839;
   color: white;
   border: none;
   border-radius: 30px;
   padding: 15px 30px;
 }
-header nav .img1 {
+header .img1 {
   background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)), url(../img/banner1.jpg);
   background-size: cover;
   height: 100vh;
 }
-header nav .img2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/blog_img1.jpg);
+header .img2 {
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)), url(../img/banner1.jpg);
   background-size: cover;
   height: 100vh;
 }
-header nav .img3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../img/blog_img2.jpg);
+header .img3 {
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)), url(../img/banner1.jpg);
   background-size: cover;
   height: 100vh;
 }
-header nav h1, header nav .h1 {
+header h1, header .h1 {
   padding-top: 15%;
   padding-bottom: 40px;
   color: white;
   font-family: "Courgette";
 }
-header nav h1 span, header nav .h1 span {
+header h1 span, header .h1 span {
   color: #B02839;
+}
+header .bta {
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 50% !important;
+}
+
+.sc1 {
+  background-image: url(../img/main_bg.jpg);
 }
 
 /*# sourceMappingURL=app.css.map */
