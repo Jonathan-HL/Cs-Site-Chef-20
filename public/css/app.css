@@ -17318,6 +17318,7 @@ header .bta {
 }
 .sc1 h1, .sc1 .h1 {
   font-family: "Courgette";
+  margin: 0;
 }
 .sc1 .sert {
   margin: 40px 20%;
@@ -17348,11 +17349,14 @@ header .bta {
   margin: 0;
   padding-right: 50px;
 }
+.sc1 h3, .sc1 .h3 {
+  font-family: "Courgette";
+}
 .sc1 p {
   padding-right: 50px;
 }
 .sc1 .droite {
-  background-color: #F8F8F8;
+  background-color: #EAEAEA;
   color: #B02839;
   padding: 2px 10px 2px 10px;
   padding-right: 10px;
@@ -17360,12 +17364,27 @@ header .bta {
   font-weight: bold;
 }
 .sc1 .ligneb {
-  border-bottom: 1px dashed #DCDCDC;
+  border-bottom: 1px dashed #EAEAEA;
 }
 .sc1 .imgmid {
   width: 40%;
   height: 40%;
   margin: auto;
+}
+
+.sc2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.712)), url(../img/team_background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.sc2 h1, .sc2 .h1 {
+  padding-top: 50px;
+  font-family: "Courgette";
+}
+.sc2 span {
+  color: #B02839;
 }
 
 /*# sourceMappingURL=app.css.map */
