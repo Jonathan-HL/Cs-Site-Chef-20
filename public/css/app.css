@@ -17246,24 +17246,26 @@ header nav ul {
   border-bottom: 1px solid white;
   border-top: 1px solid white;
   width: max-content;
-  padding: 10px;
+  padding: 10px 0px;
 }
 header nav ul li {
   list-style-type: none;
   color: white;
 }
 header nav ul li a {
-  margin: 0 20%;
+  margin: 0;
   text-decoration: none;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 5px;
+  padding: 0px 5px;
+  color: white;
+}
+header nav ul li a:hover {
   color: white;
 }
 header nav ul li:hover {
   color: white;
   background-color: #B02839;
-  margin: 0px;
 }
 header .bt1 {
   background-color: white;
@@ -17271,6 +17273,7 @@ header .bt1 {
   border-radius: 30px;
   padding: 15px 30px;
   margin: 0px 15px 0px 15px;
+  font-weight: lighter;
 }
 header .bt2 {
   background-color: #B02839;
@@ -17278,20 +17281,12 @@ header .bt2 {
   border: none;
   border-radius: 30px;
   padding: 15px 30px;
+  font-weight: lighter;
 }
 header .img1 {
-  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)), url(../img/banner1.jpg);
+  background-image: linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)), url(../img/banner1.jpg);
   background-size: cover;
-  height: 100vh;
-}
-header .img2 {
-  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)), url(../img/banner1.jpg);
-  background-size: cover;
-  height: 100vh;
-}
-header .img3 {
-  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)), url(../img/banner1.jpg);
-  background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 header h1, header .h1 {
@@ -17359,7 +17354,7 @@ header .bta {
   background-color: #EAEAEA;
   color: #B02839;
   padding: 2px 10px 2px 10px;
-  padding-right: 10px;
+  margin-right: 20px;
   float: right;
   font-weight: bold;
 }
@@ -17377,7 +17372,6 @@ header .bta {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 .sc2 h1, .sc2 .h1 {
   padding-top: 50px;
@@ -17385,6 +17379,108 @@ header .bta {
 }
 .sc2 span {
   color: #B02839;
+}
+
+.sc3img {
+  background-image: url(../img/book_table_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  height: 90vh;
+  margin: 0 15%;
+}
+.sc3img p {
+  padding-top: 50px;
+}
+.sc3img input {
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 80px 10px 10px;
+}
+.sc3img .selectOcass {
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 175px 10px 10px;
+}
+.sc3img .selectNoperson {
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 145px 10px 10px;
+}
+.sc3img .selecCuisine {
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 190px 10px 10px;
+}
+
+.btn3 {
+  background-color: #B02839;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-weight: lighter;
+}
+
+img[alt="salade César"] {
+  width: 80%;
+  border: 5px solid #EAEAEA;
+  border-radius: 10px;
+}
+
+img[alt="salade poulet"] {
+  width: 80%;
+  border: 5px solid #EAEAEA;
+  border-radius: 10px;
+}
+
+.sc3index {
+  position: relative;
+  z-index: 1;
+  bottom: 40px;
+  left: 27%;
+}
+.sc3index h5 span, .sc3index .h5 span {
+  color: white;
+  font-weight: lighter;
+}
+.sc3index .indexstyle {
+  color: white;
+  background-color: #B02839;
+  width: max-content;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.sc3indexx {
+  position: relative;
+  z-index: 1;
+  bottom: 40px;
+  left: 7%;
+}
+.sc3indexx h5 span, .sc3indexx .h5 span {
+  color: white;
+  font-weight: lighter;
+}
+.sc3indexx .indexstyle {
+  color: white;
+  background-color: #B02839;
+  width: max-content;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.textsc3 {
+  margin-left: 25%;
+}
+
+.textsc33 {
+  margin-left: 5%;
+  margin: 0;
 }
 
 /*# sourceMappingURL=app.css.map */
