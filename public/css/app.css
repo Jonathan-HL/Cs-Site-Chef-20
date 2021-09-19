@@ -17484,8 +17484,8 @@ img[alt="salade poulet"] {
 }
 
 .sc4 {
-  background-image: url(../img/testimonials_background.jpg);
-  background-position: center;
+  background-image: linear-gradient(rgba(1, 1, 1, 0.7), rgba(1, 1, 1, 0.3)), url(../img/testimonials_background.jpg);
+  background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -17513,6 +17513,22 @@ img[alt=Filleblonde] {
   border-radius: 50%;
   height: 70%;
   border: 5px solid #EAEAEA;
+}
+
+.Carnet {
+  background-color: #B02839;
+  height: max-content;
+  margin: 0 25%;
+  padding: 30px 0px;
+  color: white;
+  border-radius: 10px;
+}
+.Carnet .size {
+  font-size: 60px;
+  margin-right: 50px;
+}
+.Carnet .size:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
