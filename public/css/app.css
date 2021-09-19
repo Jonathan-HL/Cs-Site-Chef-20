@@ -17483,4 +17483,36 @@ img[alt="salade poulet"] {
   margin: 0;
 }
 
+.sc4 {
+  background-image: url(../img/testimonials_background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sc4 h1, .sc4 .h1 {
+  padding-top: 50px;
+  font-family: "Courgette";
+}
+.sc4 span {
+  color: #B02839;
+}
+
+.sc4row {
+  margin-top: 5%;
+}
+
+.maxbord {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: max-content;
+  height: max-content;
+  padding: 10px 5px 10px 5px;
+}
+
+img[alt=Filleblonde] {
+  border-radius: 50%;
+  height: 70%;
+  border: 5px solid #EAEAEA;
+}
+
 /*# sourceMappingURL=app.css.map */
