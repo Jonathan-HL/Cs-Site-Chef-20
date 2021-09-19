@@ -4,7 +4,13 @@ header
             position: absolute
             z-index: 1
             padding: 0 
-            margin-left: 10%    
+            margin-left: 10%
+            @media screen and (max-width:600px)
+                margin: 0
+                font-size: 11px
+                .endz
+                    @media screen and (max-width:600px)
+                        margin-left: 40px  
         ul
             display: flex
             border-bottom: 1px solid white
@@ -50,6 +56,11 @@ header
         padding-bottom: 40px
         color: white
         font-family: "Courgette"
+        @media screen and (max-width:600px)
+            padding-top: 100%
+            
+            
+        
         span
             color: $colorRed
     .bta

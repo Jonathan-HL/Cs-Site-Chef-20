@@ -17241,6 +17241,17 @@ header nav .nav1 {
   padding: 0;
   margin-left: 10%;
 }
+@media screen and (max-width: 600px) {
+  header nav .nav1 {
+    margin: 0;
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 600px) and (max-width: 600px) {
+  header nav .nav1 .endz {
+    margin-left: 40px;
+  }
+}
 header nav ul {
   display: flex;
   border-bottom: 1px solid white;
@@ -17295,6 +17306,11 @@ header h1, header .h1 {
   color: white;
   font-family: "Courgette";
 }
+@media screen and (max-width: 600px) {
+  header h1, header .h1 {
+    padding-top: 100%;
+  }
+}
 header h1 span, header .h1 span {
   color: #B02839;
 }
@@ -17317,6 +17333,11 @@ header .bta {
 }
 .sc1 .sert {
   margin: 40px 20%;
+}
+@media screen and (max-width: 600px) {
+  .sc1 .sert {
+    margin: 0;
+  }
 }
 .sc1 span {
   color: #B02839;
@@ -17350,6 +17371,12 @@ header .bta {
 .sc1 p {
   padding-right: 50px;
 }
+@media screen and (max-width: 600px) {
+  .sc1 p {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+}
 .sc1 .droite {
   background-color: #EAEAEA;
   color: #B02839;
@@ -17362,9 +17389,17 @@ header .bta {
   border-bottom: 1px dashed #EAEAEA;
 }
 .sc1 .imgmid {
+  padding-top: 5%;
   width: 40%;
-  height: 40%;
   margin: auto;
+}
+.sc1 img[alt=decoration_line] {
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  .sc1 img[alt=decoration_line] {
+    width: 100% !important;
+  }
 }
 
 .sc2 {
@@ -17377,8 +17412,33 @@ header .bta {
   padding-top: 50px;
   font-family: "Courgette";
 }
+.sc2 img[alt=decoration_line] {
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  .sc2 img[alt=decoration_line] {
+    width: 100% !important;
+  }
+}
+.sc2 img[alt=chef] {
+  width: 75%;
+}
+@media screen and (max-width: 600px) {
+  .sc2 img[alt=chef] {
+    width: 100%;
+  }
+}
 .sc2 span {
   color: #B02839;
+}
+
+.sc1 img[alt=decoration_line] {
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  .sc1 img[alt=decoration_line] {
+    width: 100% !important;
+  }
 }
 
 .sc3img {
@@ -17389,8 +17449,19 @@ header .bta {
   height: 90vh;
   margin: 0 15%;
 }
+@media screen and (max-width: 600px) {
+  .sc3img {
+    margin: 0;
+    height: 100vh;
+  }
+}
 .sc3img p {
   padding-top: 50px;
+}
+@media screen and (max-width: 600px) {
+  .sc3img .formz {
+    text-align: center !important;
+  }
 }
 .sc3img input {
   margin: 10px;
@@ -17431,11 +17502,27 @@ img[alt="salade César"] {
   border: 5px solid #EAEAEA;
   border-radius: 10px;
 }
+@media screen and (max-width: 600px) {
+  img[alt="salade César"] {
+    width: 100%;
+  }
+}
 
 img[alt="salade poulet"] {
   width: 80%;
   border: 5px solid #EAEAEA;
   border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  img[alt="salade poulet"] {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .salade {
+    text-align: end !important;
+  }
 }
 
 .sc3index {
@@ -17443,6 +17530,11 @@ img[alt="salade poulet"] {
   z-index: 1;
   bottom: 40px;
   left: 27%;
+}
+@media screen and (max-width: 600px) {
+  .sc3index {
+    left: 5%;
+  }
 }
 .sc3index h5 span, .sc3index .h5 span {
   color: white;
@@ -17455,12 +17547,22 @@ img[alt="salade poulet"] {
   border-radius: 10px;
   padding: 20px 30px;
 }
+@media screen and (max-width: 600px) {
+  .sc3index .indexstyle {
+    padding: 10px 10px;
+  }
+}
 
 .sc3indexx {
   position: relative;
   z-index: 1;
   bottom: 40px;
   left: 7%;
+}
+@media screen and (max-width: 600px) {
+  .sc3indexx {
+    left: 5%;
+  }
 }
 .sc3indexx h5 span, .sc3indexx .h5 span {
   color: white;
@@ -17472,6 +17574,11 @@ img[alt="salade poulet"] {
   width: max-content;
   border-radius: 10px;
   padding: 20px 30px;
+}
+@media screen and (max-width: 600px) {
+  .sc3indexx .indexstyle {
+    padding: 10px 10px;
+  }
 }
 
 .textsc3 {
@@ -17500,6 +17607,12 @@ img[alt="salade poulet"] {
 .sc4row {
   margin-top: 5%;
 }
+@media screen and (max-width: 600px) {
+  .sc4row {
+    margin: 0;
+    padding: 0;
+  }
+}
 
 .maxbord {
   border: 1px solid white;
@@ -17509,10 +17622,46 @@ img[alt="salade poulet"] {
   padding: 10px 5px 10px 5px;
 }
 
+@media screen and (max-width: 600px) {
+  .héhé {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .test1 {
+    margin-top: 100px;
+  }
+}
+
+img[alt=decoration_linee] {
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  img[alt=decoration_linee] {
+    width: 100% !important;
+  }
+}
+
 img[alt=Filleblonde] {
   border-radius: 50%;
   height: 70%;
   border: 5px solid #EAEAEA;
+}
+@media screen and (max-width: 600px) {
+  img[alt=Filleblonde] {
+    height: 30%;
+    margin: 0 !important;
+  }
+}
+
+.sc1 img[alt=decoration_line] {
+  width: 40%;
+}
+@media screen and (max-width: 600px) {
+  .sc1 {
+    width: 100% !important;
+  }
 }
 
 .Carnet {
@@ -17523,9 +17672,19 @@ img[alt=Filleblonde] {
   color: white;
   border-radius: 10px;
 }
+@media screen and (max-width: 600px) {
+  .Carnet {
+    margin: 0;
+  }
+}
 .Carnet .size {
   font-size: 60px;
   margin-right: 50px;
+}
+@media screen and (max-width: 600px) {
+  .Carnet .size {
+    margin-left: 50px;
+  }
 }
 .Carnet .size:hover {
   color: white;
@@ -17536,6 +17695,16 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+@media screen and (max-width: 600px) {
+  footer .moin {
+    padding: 10px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer .hoho {
+    text-align: center;
+  }
 }
 footer .espace {
   margin: 5px;

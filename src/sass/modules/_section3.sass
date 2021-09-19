@@ -1,3 +1,8 @@
+.sc1
+    img[alt="decoration_line"]
+        width: 40%
+        @media screen and (max-width:600px)
+            width: 100% !important
 .sc3img
     background-image: url(../img/book_table_bg.jpg)
     background-repeat: no-repeat
@@ -5,8 +10,14 @@
     border-radius: 15px
     height: 90vh
     margin: 0 15%
+    @media screen and (max-width:600px)
+        margin: 0
+        height: 100vh
     p
         padding-top: 50px
+    .formz
+        @media screen and (max-width:600px)
+            text-align: center !important              
     input
         margin: 10px
         border-radius: 10px
@@ -38,15 +49,25 @@ img[alt="salade César"]
     width: 80%
     border: 5px solid #EAEAEA
     border-radius: 10px
+    @media screen and (max-width:600px)
+        width: 100%
 img[alt="salade poulet"] 
     width: 80%
     border: 5px solid #EAEAEA
     border-radius: 10px
+    @media screen and (max-width:600px)
+        width: 100%
+.salade
+    @media screen and (max-width:600px)
+        text-align: end !important
+    
 .sc3index
     position: relative
     z-index: 1
     bottom: 40px
     left: 27%
+    @media screen and (max-width:600px)
+        left: 5%
     h5
         span
             color: white
@@ -57,11 +78,15 @@ img[alt="salade poulet"]
         width: max-content
         border-radius: 10px
         padding: 20px 30px
+        @media screen and (max-width:600px)
+            padding: 10px 10px
 .sc3indexx
     position: relative
     z-index: 1
     bottom: 40px
     left: 7%
+    @media screen and (max-width:600px)
+        left: 5%
     h5
         span
             color: white
@@ -71,10 +96,11 @@ img[alt="salade poulet"]
         background-color: #B02839
         width: max-content
         border-radius: 10px
-        padding: 20px 30px 
+        padding: 20px 30px
+        @media screen and (max-width:600px)
+            padding: 10px 10px 
 .textsc3
      margin-left: 25% 
 .textsc33
     margin-left: 5%
     margin:0
-   
