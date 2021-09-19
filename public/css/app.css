@@ -17247,9 +17247,24 @@ header nav .nav1 {
     font-size: 11px;
   }
 }
-@media screen and (max-width: 600px) and (max-width: 600px) {
-  header nav .nav1 .endz {
-    margin-left: 40px;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header nav .nav1 {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  header nav .endz {
+    margin: auto !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header nav .endz {
+    margin-left: 25%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header nav .endzz {
+    margin-left: 20%;
   }
 }
 header nav ul {
@@ -17311,6 +17326,11 @@ header h1, header .h1 {
     padding-top: 100%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header h1, header .h1 {
+    padding-top: 55%;
+  }
+}
 header h1 span, header .h1 span {
   color: #B02839;
 }
@@ -17339,8 +17359,25 @@ header .bta {
     margin: 0;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc1 .sert {
+    margin: 0;
+  }
+}
 .sc1 span {
   color: #B02839;
+}
+@media screen and (max-width: 600px) {
+  .sc1 .txst {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc1 .txst {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .sc1 .bordz {
   border-right: 1px solid #DCDCDC;
@@ -17365,6 +17402,11 @@ header .bta {
   margin: 0;
   padding-right: 50px;
 }
+@media screen and (max-width: 600px) {
+  .sc1 h5, .sc1 .h5 {
+    padding-right: 100px;
+  }
+}
 .sc1 h3, .sc1 .h3 {
   font-family: "Courgette";
 }
@@ -17374,6 +17416,11 @@ header .bta {
 @media screen and (max-width: 600px) {
   .sc1 p {
     padding: 0;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc1 p {
     padding-bottom: 20px;
   }
 }
@@ -17401,6 +17448,11 @@ header .bta {
     width: 100% !important;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc1 img[alt=decoration_line] {
+    width: 50% !important;
+  }
+}
 
 .sc2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.712)), url(../img/team_background.jpg);
@@ -17420,10 +17472,20 @@ header .bta {
     width: 100% !important;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc2 img[alt=decoration_line] {
+    width: 50% !important;
+  }
+}
 .sc2 img[alt=chef] {
   width: 75%;
 }
 @media screen and (max-width: 600px) {
+  .sc2 img[alt=chef] {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .sc2 img[alt=chef] {
     width: 100%;
   }
@@ -17440,6 +17502,11 @@ header .bta {
     width: 100% !important;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc1 img[alt=decoration_line] {
+    width: 50% !important;
+  }
+}
 
 .sc3img {
   background-image: url(../img/book_table_bg.jpg);
@@ -17453,6 +17520,12 @@ header .bta {
   .sc3img {
     margin: 0;
     height: 100vh;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc3img {
+    margin: 0;
+    height: 50vh;
   }
 }
 .sc3img p {
@@ -17507,6 +17580,11 @@ img[alt="salade César"] {
     width: 100%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  img[alt="salade César"] {
+    width: 100%;
+  }
+}
 
 img[alt="salade poulet"] {
   width: 80%;
@@ -17514,6 +17592,11 @@ img[alt="salade poulet"] {
   border-radius: 10px;
 }
 @media screen and (max-width: 600px) {
+  img[alt="salade poulet"] {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   img[alt="salade poulet"] {
     width: 100%;
   }
@@ -17536,6 +17619,11 @@ img[alt="salade poulet"] {
     left: 5%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc3index {
+    left: 2%;
+  }
+}
 .sc3index h5 span, .sc3index .h5 span {
   color: white;
   font-weight: lighter;
@@ -17552,6 +17640,11 @@ img[alt="salade poulet"] {
     padding: 10px 10px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc3index .indexstyle {
+    padding: 5px 5px;
+  }
+}
 
 .sc3indexx {
   position: relative;
@@ -17562,6 +17655,11 @@ img[alt="salade poulet"] {
 @media screen and (max-width: 600px) {
   .sc3indexx {
     left: 5%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc3indexx {
+    left: 2%;
   }
 }
 .sc3indexx h5 span, .sc3indexx .h5 span {
@@ -17578,6 +17676,11 @@ img[alt="salade poulet"] {
 @media screen and (max-width: 600px) {
   .sc3indexx .indexstyle {
     padding: 10px 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sc3indexx .indexstyle {
+    padding: 5px 5px;
   }
 }
 
@@ -17627,10 +17730,21 @@ img[alt="salade poulet"] {
     padding-bottom: 50px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .héhé {
+    padding-bottom: 100px;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .test1 {
     margin-top: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .test1 {
+    margin-top: 50px;
+    display: flex;
   }
 }
 
@@ -17642,6 +17756,11 @@ img[alt=decoration_linee] {
     width: 100% !important;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  img[alt=decoration_linee] {
+    width: 50% !important;
+  }
+}
 
 img[alt=Filleblonde] {
   border-radius: 50%;
@@ -17651,6 +17770,12 @@ img[alt=Filleblonde] {
 @media screen and (max-width: 600px) {
   img[alt=Filleblonde] {
     height: 30%;
+    margin: 0 !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  img[alt=Filleblonde] {
+    height: 50%;
     margin: 0 !important;
   }
 }
@@ -17677,6 +17802,11 @@ img[alt=Filleblonde] {
     margin: 0;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .Carnet {
+    margin: 0;
+  }
+}
 .Carnet .size {
   font-size: 60px;
   margin-right: 50px;
@@ -17696,9 +17826,20 @@ footer {
   background-size: cover;
   background-position: center;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    height: 100vh;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 600px) {
   footer .moin {
     padding: 10px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer .moin {
+    padding: 30px !important;
   }
 }
 @media screen and (max-width: 600px) {
