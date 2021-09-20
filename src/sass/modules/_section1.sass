@@ -1,5 +1,7 @@
 .sc1
      background-image: url(../img/main_bg.jpg)
+     @media screen and (max-width:600px)
+          padding: 28px !important
      .imglr
           display: flex
           justify-content: space-between
@@ -24,13 +26,13 @@
                flex-direction: column          
      .bordz
           border-right: 1px solid $colorI
+     .bordz:hover
+          border-right: $colorRed  solid
      i
           font-size: 45px
           color:$colorI
-     i:hover
-          color:$colorRed
-     .bordz:hover
-          border-right: 2px solid  $colorRed       
+     .bordzz:hover i
+          color:$colorRed      
      img[alt="café"]
           border-radius: 50%
           border: 5px solid $colorGris

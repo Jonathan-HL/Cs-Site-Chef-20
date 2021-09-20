@@ -58,6 +58,10 @@ header
         background-size: cover
         background-position: center
         height: 100vh
+        @media screen and (max-width:600px)
+            height: 90vh
+        @media screen and (min-width:768px) and (max-width:1024px)
+            height: 65vh
     h1
         padding-top:15%
         padding-bottom: 40px
@@ -75,4 +79,11 @@ header
     .bta
         height: 20px !important
         width: 20px !important
-        border-radius: 50% !important             
+        border-radius: 50% !important
+    .hde
+        background-image: url(../img/bottom_decoration_img.png)
+        background-repeat: repeat-x
+        width: 100%
+        height: 20px
+        position: absolute
+        top: 98%
