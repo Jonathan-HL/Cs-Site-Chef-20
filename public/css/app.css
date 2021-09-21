@@ -17239,8 +17239,9 @@ header nav .nav1 {
   z-index: 1;
   padding: 0;
   position: absolute;
-  left: 30%;
-  transform: translateX(-20%);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
 }
 @media screen and (max-width: 600px) {
   header nav .nav1 {
@@ -17248,6 +17249,7 @@ header nav .nav1 {
     font-size: 11px;
     left: 50%;
     transform: translateX(-50%);
+    width: auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -17255,6 +17257,7 @@ header nav .nav1 {
     margin: 0;
     left: 50%;
     transform: translateX(-50%);
+    width: auto;
   }
 }
 @media screen and (max-width: 600px) {
