@@ -17236,20 +17236,25 @@ body {
 }
 
 header nav .nav1 {
-  position: absolute;
   z-index: 1;
   padding: 0;
-  margin-left: 10%;
+  position: absolute;
+  left: 30%;
+  transform: translateX(-20%);
 }
 @media screen and (max-width: 600px) {
   header nav .nav1 {
     margin: 0;
     font-size: 11px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   header nav .nav1 {
     margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 @media screen and (max-width: 600px) {
@@ -17259,12 +17264,7 @@ header nav .nav1 {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   header nav .endz {
-    margin-left: 25%;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  header nav .endzz {
-    margin-left: 20%;
+    margin: auto;
   }
 }
 header nav ul {
@@ -17418,8 +17418,7 @@ header .hde {
 .sc1 img[alt=café] {
   border-radius: 50%;
   border: 5px solid #EAEAEA;
-  height: 13vh;
-  float: left;
+  height: 16vh;
 }
 .sc1 h5, .sc1 .h5 {
   margin: 0;
@@ -17433,9 +17432,6 @@ header .hde {
 .sc1 h3, .sc1 .h3 {
   font-family: "Courgette";
 }
-.sc1 p {
-  padding-right: 50px;
-}
 @media screen and (max-width: 600px) {
   .sc1 p {
     padding: 0;
@@ -17447,13 +17443,26 @@ header .hde {
     padding-bottom: 20px;
   }
 }
+@media screen and (max-width: 600px) {
+  .sc1 .caféé {
+    flex-direction: column;
+    margin: auto !important;
+    text-align: start;
+  }
+}
 .sc1 .droite {
   background-color: #EAEAEA;
+  width: max-content;
   color: #B02839;
-  padding: 2px 10px 2px 10px;
-  margin-right: 20px;
-  float: right;
+  padding: 2px 5px 2px 5px;
   font-weight: bold;
+  margin: auto !important;
+  margin-left: 30px !important;
+}
+@media screen and (max-width: 600px) {
+  .sc1 .droite {
+    margin: auto !important;
+  }
 }
 .sc1 .ligneb {
   border-bottom: 1px dashed #EAEAEA;
@@ -17832,11 +17841,10 @@ img[alt=Filleblonde] {
 }
 .Carnet .size {
   font-size: 60px;
-  margin-right: 50px;
 }
 @media screen and (max-width: 600px) {
   .Carnet .size {
-    margin-left: 50px;
+    margin: auto;
   }
 }
 .Carnet .size:hover {
